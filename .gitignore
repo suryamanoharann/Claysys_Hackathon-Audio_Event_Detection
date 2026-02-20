@@ -1,0 +1,53 @@
+# --- Python & Machine Learning ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.ipynb_checkpoints/
+
+# --- Audio Data (CRITICAL) ---
+# Ignore the raw datasets and processed audio files
+data/
+UrbanSound8K
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# --- Deep Learning Models & Logs ---
+# Large model weight files
+*.pth
+*.h5
+*.ckpt
+*.pb
+*.onnx
+# Training logs
+runs/
+logs/
+
+# --- React / Frontend ---
+node_modules/
+build/
+dist/
+.eslintcache
+.DS_Store
+
+# --- System & Misc ---
+.vscode/
+.idea/
+*.log
+
+# Logs
+logs/
+*.log
+runs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
